@@ -1,0 +1,15 @@
+{
+    "name": "toma",
+    "version": "1.0.0",
+    "description": "A simple script to check toma latest premarket price",
+    "main": "index.js",
+    "scripts": {
+        "start": "node api/index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "ethers": "^6.13.4",
+        "express": "^4.21.1"
+    },
+    "type": "module"
+}
