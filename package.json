@@ -1,12 +1,7 @@
 {
-    "name": "toma",
-    "version": "1.0.0",
-    "description": "A simple script to check toma latest premarket price",
-    "main": "index.js",
-    "dependencies": {
+  "dependencies": {
     "axios": "^1.7.7",
     "cors": "^2.8.5",
     "express": "^4.21.1"
-    },
-    "type": "module"
+  }
 }
