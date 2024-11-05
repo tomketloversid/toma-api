@@ -12,7 +12,7 @@ app.use(cors());
 app.get('/api/', async (req, res) => {
     try {
         // Fetch data from Gate.io API
-        const response = await axios.get('https://www.gate.io/apiw/v2/pre_market/currencies/TOMA');
+        const response = await axios.get('https://www.gate.io/apiw/v2/pre_market/currencies/MEMEFI');
 
         // Extract relevant data
         const tomaData = response.data.data;
